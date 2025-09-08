@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body id="page">
+    <header class="header">
+        <div class="container">
+            <h1>
+                <a href="index.html" class="header__logo">
+                    EUNJI LEE
+                </a>
+            </h1>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li><a href="index.html" class="header__link">Home</a></li>
+                    <li><a href="portfolio.html" class="header__link">Portfolio</a></li>
+                    <li><a href="contact.html" class="header__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="banner banner__portfolio">
+        <div class="container">
+            <div class="banner__content">
+                <h1 class="banner__title">Work 👩🏻‍💻</h1>
+                <p class="banner__text">
+                    These are the projects implemented during the first semester at Algonquin College. If you have any feedback or questions, please leave them through Contact!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project -->
+    <section class="card-group--portfolio">
+        <div class="container">
+            <h3 class="card-group__title">Project</h3>
+            <ul class="card-group__list card-group--grid" role="list">
+                <li class="card-group__item--portfolio cols">
+                    <a href="https://github.com/lee00866/mad9013-project-two-page-site.git" class="card">
+                        <div class="card__image--portfolio">
+                            <img src="./images/project1.jpg" alt="Adventure Dragon">
+                        </div>
+                        <div class="card__content--portfolio">
+                            <h2 class="card__title">Adventure co. Web Site</h2>
+                            <p class="card__text">This is a two-page site created using CSS and HTML.</p>
+                            <div class="icon">
+                                <span class="icon__label">View</span>
+                                <i class="material-symbols-outlined">chevron_right
+                                </i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="card-group__item--portfolio cols">
+                    <a href="https://github.com/lee00866/mad9014-w24-cocktail-collection.git" class="card">
+                        <div class="card__image--portfolio">
+                            <img src="./images/project2.jpg" alt="Cocktail Collection">
+                        </div>
+                        <div class="card__content--portfolio">
+                            <h3 class="card__title">Cocktail Collection</h3>
+                            <p class="card__text">Using API and store the selected cocktails in the local storage.</p>
+                            <div class="icon">
+                                <span class="icon__label">View</span>
+                                <i class="material-symbols-outlined">chevron_right
+                                </i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="card-group__item--portfolio cols">
+                    <a href="https://www.figma.com/proto/QUEzVm2ePaEmoTNHk3W4Gi/Wireframes?page-id=315%3A2&type=design&node-id=597-2713&viewport=300%2C447%2C0.19&t=JMR2qNtVq0QihKcA-1&scaling=scale-down&starting-point-node-id=597%3A2738&mode=design" class="card">
+                        <div class="card__image--portfolio">
+                            <img src="./images/project3.jpg" alt="Foody Application logo">
+                        </div>
+                        <div class="card__content--portfolio">
+                            <h3 class="card__title">Foody App Design</h3>
+                            <p class="card__text">Designed a delivery application using Figma.</p>
+                            <div class="icon">
+                                <span class="icon__label">View</span>
+                                <i class="material-symbols-outlined">chevron_right
+                                </i>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <a href="index.html" class="footer__logo">
+                EUNJI LEE
+            </a>
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li><a href="index.html" class="footer__link">Home</a></li>
+                    <li><a href="portfolio.html" class="footer__link">Portfolio</a></li>
+                    <li><a href="contact.html" class="footer__link">Contact</a></li>
+                </ul>
+            </nav>
+            <small class="footer__copyright">
+                <ul class="footer__list footer--list--copyright">
+                    <li>&copy; 2024 MAD9013 Portfolio</li>
+                </ul>
+            </small>
+        </div>
+    </footer>
+
+    <a href="#page" class="to-top">To Top</a>
+</body>
+</html>
