@@ -371,6 +371,7 @@ body {
   background-color: var(--color-background-pale);
   border-radius: 0.75rem;
   display: flex;
+  align-items: center;
   container-type: inline-size;
 }
 
@@ -428,6 +429,26 @@ body {
         grid-column: auto;
       }
     }
+  }
+}
+
+/* Tech Stack 섹션 전용 크기 축소 */
+.card-group--index {
+  .card__image--index {
+    width: min(4rem, 100%);
+    margin-top: 0.25rem;
+    margin-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card__content {
+    padding: 1rem;
+  }
+
+  .card__title {
+    font-size: clamp(1.25rem, 7cqi, 1.75rem);
   }
 }
 
