@@ -386,16 +386,28 @@ body {
   margin-left: 0.5rem;
 }
 
+/* Tech Stack 로고 이미지 크기 통일 */
+.card__image--index img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
 .card__content {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
   flex-grow: 2;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 .card__title {
   font-size: clamp(1.424rem, 10cqi, 2.157rem);
+  text-align: center;
+  width: 100%;
 }
 
 .card__text {
@@ -503,7 +515,7 @@ body {
   background-color: transparent;
   color: var(--color-black);
   padding: 0;
-  margin: 0 0 1rem 0;
+  margin: 1rem 0 1rem 0;
   font-size: 2rem;
   font-weight: 600;
   text-align: left;
