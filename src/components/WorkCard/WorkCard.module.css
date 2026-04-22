@@ -1,0 +1,114 @@
+.header {
+  background: var(--color-black);
+  color: var(--color-white);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  padding: 0 3.5rem 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 0.7rem 0;
+}
+
+.date {
+  color: var(--color-white);
+  font-size: 0.9rem;
+}
+
+.card {
+  background: var(--color-white);
+  min-height: 11rem;
+
+  border: 1px solid var(--color-black);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding: 0 1rem 0.5rem 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+li {
+  margin-bottom: 0.3rem;
+}
+
+.url {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.icon {
+  color: rgb(37, 141, 219);
+  font-size: large;
+}
+.href {
+  color: rgb(37, 141, 219);
+}
+
+.stack {
+  margin-bottom: 1rem;
+}
+
+.tag {
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--color-white);
+  margin-right: 4px;
+}
+
+.tag.java {
+  background-color: #b07219;
+}
+.tag.javascript {
+  background-color: rgb(239, 216, 29);
+}
+.tag.html {
+  background-color: #e34c26;
+}
+.tag.css {
+  background-color: #264de4;
+}
+.tag.typescript {
+  background-color: #3178c6;
+}
+.tag.spring {
+  background-color: #6db33f;
+}
+
+.tag.tailwind {
+  background-color: #0ea5e9;
+}
+.tag.spring-boot {
+  background-color: #6db33f;
+}
+.tag.firebase {
+  background-color: #f57c00;
+}
+.tag.oracle {
+  background-color: #f80000;
+}
+
+.tag.react {
+  background-color: #008bb9;
+}
+
+.tag.vercel {
+  background-color: #000000;
+}

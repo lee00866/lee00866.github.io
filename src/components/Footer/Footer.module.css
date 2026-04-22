@@ -1,0 +1,25 @@
+.footer {
+  background: var(--color-background);
+  color: var(--color-header-text);
+}
+
+.container {
+  max-width: 1279px;
+  min-height: 48px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.icon path {
+  fill: white;
+  stroke: white;
+}

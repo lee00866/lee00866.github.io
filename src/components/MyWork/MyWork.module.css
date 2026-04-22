@@ -1,0 +1,67 @@
+.section {
+  max-width: 1279px;
+  margin: 2rem auto;
+  padding: 0 20px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header {
+  margin: 0;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: var(--color-header-text);
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 21px;
+  margin-left: 21px;
+}
+
+.btn {
+  font-size: 1.2rem;
+  color: rgb(64, 64, 64);
+  cursor: pointer;
+}
+
+.active {
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-bottom: 2px solid #059669;
+}
+
+.divider {
+  padding: 0 12px;
+}
+
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.cardList > div {
+  flex: 0 0 100%;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .cardList > div {
+    flex: 0 0 calc(50% - 0.75rem);
+    max-width: calc(50% - 0.75rem);
+  }
+}
