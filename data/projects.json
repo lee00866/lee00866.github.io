@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Tip Calculator",
+    "date": "Oct, 2025",
+    "description": "Tip Calculator for Simplified Tip Splitting",
+    "do": [
+      "Automated tip calculation based on distribution ratios and number of staff"
+    ],
+    "url": "https://tip-calculator-eosin-ten.vercel.app/",
+    "stack": ["javascript", "react", "vercel"],
+    "readme": ""
+  },
+  {
+    "title": "Ethical AI Tool",
+    "date": "Aug, 2025",
+    "description": "Ethical AI self-assessment web app",
+    "do": [
+      "Implemented a responsive home screen",
+      "Created a questionnaire with instant feedback, result visualization, and PDF export"
+    ],
+    "url": "",
+    "stack": ["react", "tailwind"],
+    "readme": ""
+  },
+  {
+    "title": "Cafe Cicha",
+    "date": "Oct, 2018",
+    "description": "Café Chain Management Web Platform",
+    "do": ["Developed a sales dashboard (charts and Excel export)"],
+    "stack": ["java", "spring", "oracle", "css", "html"],
+    "readme": ""
+  },
+  {
+    "title": "DaengDaeng",
+    "date": "Jun, 2018",
+    "description": "Missing Pet Reporting Platform",
+    "do": ["Built a board", "Coordinate-based map location display"],
+    "stack": ["java", "javascript", "oracle", "css", "html"],
+    "readme": ""
+  }
+]
