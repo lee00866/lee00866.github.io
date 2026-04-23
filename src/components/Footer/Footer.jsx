@@ -15,7 +15,6 @@ export default function Footer() {
           href="https://www.linkedin.com/in/eunji-lee-86b87a261/"
           target="_blank"
         >
-          test code
           <LinkedInIcon className={styles.icon} />
         </a>
       </div>
