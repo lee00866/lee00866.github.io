@@ -71,7 +71,10 @@ anchor.anchor,
   cursor: pointer;
 }
 
-.anchor {
+.anchor,
+.anchor:visited {
+  color: var(--color-header-text);
+  text-decoration: none;
   text-decoration-line: none;
 }
 
