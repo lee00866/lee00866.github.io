@@ -6,11 +6,15 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        <a href="/" target="_blank">
+        <a href="https://github.com/lee00866" target="_blank" rel="noreferrer">
           <GitHubIcon className={styles.icon} />
         </a>
 
-        <a href="/" target="_blank">
+        <a
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/eunji-lee-86b87a261/"
+          target="_blank"
+        >
           <LinkedInIcon className={styles.icon} />
         </a>
       </div>
