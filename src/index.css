@@ -2,6 +2,7 @@
   /* Colors */
   --color-white: #fff;
   --color-black: #000;
+  --color-green: #059669;
   --color-header-text: #a3a3a3;
   --color-header-text-hover: #f5f5f5;
 
@@ -21,8 +22,8 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 ul {

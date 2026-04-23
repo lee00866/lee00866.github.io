@@ -2,7 +2,7 @@ import styles from "./Career.module.css";
 
 export default function Career() {
   return (
-    <section className={styles.section}>
+    <section id="career" className={styles.section}>
       <div className={styles.sectionHeader}>
         <h1 className={styles.h1}>Career</h1>
         <div className={styles.line} />

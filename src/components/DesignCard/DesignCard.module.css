@@ -1,5 +1,5 @@
-a,
-a:visited {
+.anchor,
+.anchor:visited {
   color: var(--color-white);
   text-decoration: none;
 }

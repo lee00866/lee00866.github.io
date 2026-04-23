@@ -22,7 +22,12 @@ export default function DesignCard() {
               <h4>{design.title}</h4>
               <div className={styles.desc}>{design.sub} </div>
             </div>
-            <a href={design.url} target="_blank" rel="noreferrer">
+            <a
+              className={styles.anchor}
+              href={design.url}
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className={styles.after}>
                 <h3>Show Project</h3>
                 <IoIosArrowForward />

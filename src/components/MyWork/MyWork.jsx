@@ -6,7 +6,7 @@ import DesignCard from "../DesignCard/DesignCard";
 export default function MyWork() {
   const [filter, setFilter] = useState("all");
   return (
-    <section className={styles.section}>
+    <section id="myWork" className={styles.section}>
       <div className={styles.container}>
         <div className={styles.sectionHeader}>
           <h1 className={styles.header}>My Work</h1>

@@ -26,8 +26,16 @@ export default function Header() {
 
         <nav className={`${styles.nav} ${menu ? styles.navOpen : ""}`}>
           <ul className={styles.list}>
-            <li className={styles.item}>My Work</li>
-            <li className={styles.item}>Career</li>
+            <li className={styles.item}>
+              <a className={styles.anchor} href="#myWork">
+                My Work
+              </a>
+            </li>
+            <li className={styles.item}>
+              <a className={styles.anchor} href="#career">
+                Career
+              </a>
+            </li>
           </ul>
         </nav>
       </div>

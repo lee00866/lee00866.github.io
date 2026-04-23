@@ -1,17 +1,38 @@
 .header {
   background-color: var(--color-background);
   color: var(--color-header-text);
-  position: relative;
-  z-index: 100;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaeaea; /* 연한 회색 선 추가 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* 그림자는 아주 살짝만 */
 }
 
 .container {
+  height: 60px;
   max-width: 1279px;
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+anchor.anchor,
+.anchor:visited {
+  color: var(--color-header-text);
+  text-decoration: none;
 }
 
 .menuIcon {
@@ -50,9 +71,17 @@
   cursor: pointer;
 }
 
+.anchor {
+  text-decoration-line: none;
+}
+
 .logo:hover,
-.item:hover {
-  color: var(--color-header-text-hover);
+.anchor:hover {
+  color: var(--color-green);
+}
+
+.anchor:hover {
+  font-weight: bold;
 }
 
 @media (max-width: 767px) {
@@ -61,7 +90,8 @@
   }
 
   .nav {
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     top: 60px;
     left: 0;
     width: 100%;
@@ -103,9 +133,4 @@
     padding: 0;
     list-style: none;
   }
-}
-
-.logo:hover,
-.item:hover {
-  color: var(--color-header-text-hover);
 }
