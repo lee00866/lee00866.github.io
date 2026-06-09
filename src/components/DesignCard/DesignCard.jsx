@@ -13,7 +13,7 @@ export default function DesignCard() {
   return (
     <>
       {designs.map((design) => (
-        <div className={styles.card}>
+        <div key={design.key} className={styles.card}>
           <div className={styles.img}>
             <img src={design.thumbnail} alt={design.thumbnailAlt} />
           </div>

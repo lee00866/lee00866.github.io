@@ -1,0 +1,43 @@
+[
+  {
+    "key": "1",
+    "title": "Tip Calculator",
+    "date": "2025.10",
+    "description": "팁 계산 간소화",
+    "do": ["분배 비율과 스탭 수를 근거로 자동 팁 계산 시스템"],
+    "url": "",
+    "stack": ["javascript", "react", "vercel"],
+    "readme": ""
+  },
+  {
+    "key": "2",
+    "title": "Ethical AI Tool",
+    "date": "2025.08",
+    "description": "AI활용을 위한 자기 윤리평가 web app",
+    "do": [
+      "반응형 홈 화면 구현",
+      "즉각적인 피드백, 결과 시각화 및 PDF 내보내기 기능을 갖춘 설문지를 제작"
+    ],
+    "url": "",
+    "stack": ["react", "tailwind"],
+    "readme": ""
+  },
+  {
+    "key": "3",
+    "title": "Cafe Cicha",
+    "date": "2018.10",
+    "description": "카페 체인망 Web Platform",
+    "do": ["세일즈 대시보드 구현 (차트 / 엑셀 다운로드)"],
+    "stack": ["java", "spring", "oracle", "css", "html"],
+    "readme": ""
+  },
+  {
+    "key": "4",
+    "title": "DaengDaeng",
+    "date": "2018.06",
+    "description": "실종 반려동물 신고 Platform",
+    "do": ["게시판 구현", "좌표기반 지도 위치 표시"],
+    "stack": ["java", "javascript", "oracle", "css", "html"],
+    "readme": ""
+  }
+]

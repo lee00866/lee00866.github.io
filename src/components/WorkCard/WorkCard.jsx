@@ -5,7 +5,7 @@ import { FiChevronRight } from "react-icons/fi";
 export default function WorkCard() {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("/data/projects.json")
+    fetch("/data/projects-kr.json")
       .then((res) => res.json())
       .then((data) => {
         setProjects(data);
@@ -16,7 +16,7 @@ export default function WorkCard() {
   return (
     <>
       {projects.map((project) => (
-        <div>
+        <div key={project.key}>
           <div className={styles.header}>
             <h2>{project.title}</h2>
             <span className={styles.date}>{project.date}</span>
@@ -24,15 +24,15 @@ export default function WorkCard() {
           <div className={styles.card}>
             <h3>{project.description}</h3>
             <ul>
-              {project.do.map((d) => (
-                <li>{d}</li>
+              {project.do.map((d, i) => (
+                <li key={`${project.title}_${i}`}>{d}</li>
               ))}
             </ul>
             {project.url && (
               <div className={styles.url}>
                 <FiChevronRight className={styles.icon} />
                 <a
-                  href="https://tip-calculator-eosin-ten.vercel.app/"
+                  href={project.title}
                   target="_blank"
                   rel="noreferrer"
                   className={styles.href}
@@ -43,8 +43,8 @@ export default function WorkCard() {
             )}
 
             <div className={styles.stack}>
-              {project.stack.map((s) => (
-                <span className={`${styles.tag} ${styles[s]}`}>
+              {project.stack.map((s, i) => (
+                <span key={i} className={`${styles.tag} ${styles[s]}`}>
                   {s.charAt(0).toUpperCase() + s.slice(1)}
                 </span>
               ))}
