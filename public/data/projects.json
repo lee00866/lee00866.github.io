@@ -6,7 +6,7 @@
     "do": [
       "Automated tip calculation based on distribution ratios and number of staff"
     ],
-    "url": "https://tip-calculator-eosin-ten.vercel.app/",
+    "url": "",
     "stack": ["javascript", "react", "vercel"],
     "readme": ""
   },
